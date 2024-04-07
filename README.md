@@ -54,7 +54,6 @@ Image
 + 如用cachefly加速 
 
 cachefly绑定cloudflare pages
-<img src="https://i3.wp.com/telegra.ph/file/c19f7ea17ce2027b13dfa.png" />
 
 修改代码
 
