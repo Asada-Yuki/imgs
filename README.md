@@ -1,7 +1,7 @@
-# telegraph-Image
+Image
 
 
-### [Demo](https://img.131213.xyz/)
+
 
 ### 开发计划
 - [x] 后台管理
@@ -35,7 +35,7 @@
 
 > [开启图片管理功能教程](./docs/manage.md)
 
-1. 点击[Use this template](https://github.com/x-dr/telegraph-Image/generate)按钮创建一个新的代码库。
+1. 点击[Use this template]按钮创建一个新的代码库。
 
 2. 登录到[Cloudflare](https://dash.cloudflare.com/)控制台.
 3. 在帐户主页中，选择`pages`> ` Create a project` > `Connect to Git`
