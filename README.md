@@ -41,7 +41,6 @@ Image
 3. 在帐户主页中，选择`pages`> ` Create a project` > `Connect to Git`
 4. 选择你创建的项目存储库，在`Set up builds and deployments`部分中，全部默认即可。
 
-<img src="https://i3.wp.com/telegra.ph/file/beb0385822e24c9a9d459.png"  height="50%" width="50%" />
 
 5. 点击`Save and Deploy`部署，然后点`Continue to project`即可看到访问域名
 
@@ -56,15 +55,6 @@ Image
 
 
 ---
----
-### 利用vercel部署(vercel分支)
-
-[![Deploy with Vercel](https://vercel.com/button?utm_source=busiyi&utm_campaign=oss)](https://vercel.com/new/clone?utm_source=busiyi&utm_campaign=oss&repository-url=https://github.com/x-dr/telegraph-Image/tree/vercel)
-
----
-
-
-
 
 
 ### 自定义cdn加速
@@ -81,16 +71,3 @@ cachefly绑定cloudflare pages
 - const PROXYURL = ""  //自定义加速域名 默认是使用cloudflare
 + const PROXYURL = "https://xxxxxxxxxx.cachefly.net"  //自定义加速域名 默认是使用cloudflare
 ```
-
-
-
-
-### 感谢
-
-[@cf-pages](https://github.com/cf-pages/Telegraph-Image)
-
-[@likebeta](https://github.com/likebeta/telegraph-image-hosting)
-
-
-
-
