@@ -38,26 +38,19 @@ CREATE TABLE IF NOT EXISTS imginfo (
 
 4. 后台管理页面新增登录验证功能，默认也是关闭的，如需开启请部署完成后前往后台依次点击`设置`->`环境变量`->`为生产环境定义变量`->`编辑变量` 添加如下表格所示的变量即可开启登录验证
 
-*[鉴黄api部署](https://github.com/x-dr/nsfwjs-api)*
-
-> `ModerateContentApiKey` 请前往 [https://moderatecontent.com/] (https://moderatecontent.com/)注册免费获取API key
 
 | 变量名称      | 值 |
 | ----------- | ----------- |
 |BASIC_USER   | <后台管理页面登录用户名称>|
 |BASIC_PASS   | <后台管理页面登录用户密码>|
-|ModerateContentApiKey   | <审查图像内容的API key>|
-|RATINGAPI   | <[自建的鉴黄api](https://github.com/x-dr/nsfwjs-api) >|
 
-> 优先级 `RATINGAPI` > `ModerateContentApiKey`
 
-> `RATINGAPI`的格式 `https://xxx.xxx/rating`
 
 <img src="./img/fun.png"   height="50%" width="50%"/>
 
 
 
-5. 返回最新部署完成`telegraph-Image`项目后台点击`重试部署` 使环境变量生效
+5. 返回最新部署完成项目后台点击`重试部署` 使环境变量生效
 <img src="./img/d1end.png"   height="50%" width="50%"/>
 
 
