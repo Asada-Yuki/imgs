@@ -1,15 +1,6 @@
 Image
 
 
-
-
-### 开发计划
-- [x] 后台管理
-- [x] 鉴黄
-- [ ] 画廊
-- [ ] referer、IP黑名单
-
-
 ### 优点
 
 1. 无限图片储存数量，你可以上传不限数量的图片
@@ -63,7 +54,6 @@ Image
 + 如用cachefly加速 
 
 cachefly绑定cloudflare pages
-<img src="https://i3.wp.com/telegra.ph/file/c19f7ea17ce2027b13dfa.png" />
 
 修改代码
 
